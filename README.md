@@ -120,3 +120,8 @@
 - 회원가입 페이지 UI
 
 ### TIL
+
+- shadcn/ui
+  - button, card, form, input, label, select 컴포넌트를 활용한 회원가입 UI 제작
+  - import { cn } from "@/lib/utils"을 통해서 CSS 적용
+  - shadcn/ui를 활용해서 빠르게 UI 구축이 가능했다.
