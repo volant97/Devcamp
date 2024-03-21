@@ -100,7 +100,7 @@
 
 - 기본적인 ui를 먼저 구성해야될 것 같아서 shadcn/ui 구조부터 파악
 - 처음 사용해보는 라이브러리라서 공식문서와 구글에서 설치 및 활용방법 검색
-  - Next.js 셋업시 Tailwind가 설치
+  - Next.js 셋업시 Tailwind 설치
   - Run the CLI : npx shadcn-ui@latest init
   - components.json 구성하기 : 원하는 선택지 입력
   - 사용할 컴포넌트 추가하기 : npx shadcn-ui@latest add button
@@ -112,3 +112,11 @@
 
 - shadcn/ui 검색하고 적용해보느라 시간이 많이 소요돼서 Card의 기초적인 틀만 잡아보고 마무리했다.
 - 회원가입 UI를 구성하고 zod와 react-hook-form를 통해서 기본적인 로직을 작성해야겠다.
+
+## 2024.03.21
+
+### 4일차
+
+- 회원가입 페이지 UI
+
+### TIL
