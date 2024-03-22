@@ -121,7 +121,21 @@
 
 ### TIL
 
-- shadcn/ui
-  - button, card, form, input, label, select 컴포넌트를 활용한 회원가입 UI 제작
-  - import { cn } from "@/lib/utils"을 통해서 CSS 적용
-  - shadcn/ui를 활용해서 빠르게 UI 구축이 가능했다.
+**shadcn/ui**
+
+- button, card, form, input, label, select 컴포넌트를 활용한 회원가입 UI 제작
+- import { cn } from "@/lib/utils"을 통해서 CSS 적용
+- shadcn/ui를 활용해서 빠르게 UI 구축이 가능했다.
+
+## 2024.03.22
+
+### 5일차
+
+- 로그인 페이지 UI
+
+### TIL
+
+**shadcn/ui**
+
+- login page에 로그인 UI 제작
+- 회원가입 UI와 로그인 UI에 공통적으로 들어가는 코드는 컴포넌트화 해서 관리하면 좋을듯
