@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import { Button } from "@/components/ui/button";
 import {
@@ -12,7 +11,6 @@ import {
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectTrigger } from "@/components/ui/select";
 import { SelectItem, SelectValue } from "@radix-ui/react-select";
-import { FormControl } from "@/components/ui/form";
 import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
