@@ -12,6 +12,7 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectTrigger } from "@/components/ui/select";
 import { SelectItem, SelectValue } from "@radix-ui/react-select";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -61,9 +62,11 @@ export default function Home() {
             </div>
           </form>
         </CardContent>
-        <CardFooter className="flex justify-end">
+        <CardFooter className="flex justify-between">
+          <Button asChild>
+            <Link href="/payment">결제 페이지</Link>
+          </Button>
           <Button className="w-32">계정 등록</Button>
-          {/* <Button>버튼2</Button> */}
         </CardFooter>
       </Card>
     </main>
